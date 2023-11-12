@@ -1,0 +1,62 @@
+.header {
+ padding-top: 10px;
+ background-color: rgb(81, 145, 188);
+ border-radius: 11px;
+}
+.header h1 {
+  padding-bottom: 30px;
+  background-color: rgb(81, 145, 188);
+ }
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card_item{
+    border-radius: 33px;
+    border: black solid 5px;
+    margin: 10px;
+    padding:10px;
+    min-width: 100px;
+    min-height: 500px;
+    background: linear-gradient(45deg,rgb(52, 183, 235),white);
+}
+h1{
+    text-align: center;
+}
+
+
+
+.fixed-image {
+
+  width: 100%;
+
+}
+
+.body {
+
+    background-color: #97c6d7;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  @media screen and (max-width: 400px) {
+    
+  }
+
+
+
+
+  .fixed-image2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
